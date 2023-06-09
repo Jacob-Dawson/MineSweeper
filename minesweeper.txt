@@ -42,3 +42,5 @@
 = Additional Functionality:
 == Allow user to use arrowkeys as an alternative
 == Transitions on the events
+
+= Fix any bugs 🐛
