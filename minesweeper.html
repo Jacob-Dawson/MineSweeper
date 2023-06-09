@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/minesweeper.css">
+        <title>Minesweeper</title>
+    </head>
+    <body>
+        <section id="mySection">
+            <div id="container">
+                <div id="topPanel">
+                    <div id="flagsLeftDiv">
+                    </div>
+                    <div id="buttonDiv">
+                        <button id="restartButton">😎</button>
+                    </div>
+                    <div id="timerDiv">
+                        ⌚ 0:00
+                    </div>
+                    <div id="helpDiv">
+                        <button id="helpButton">?</button>
+                    </div>
+                </div>
+                <div id="gameContainer">
+                </div>
+                <div id="helpContainer">
+                    <button id="unhelpButton">X</button>
+                    <h1>How To Play:</h1>
+                    <ol>
+                        <li>
+                            <p>POV: You are in the bomb squad and are trying to diffuse bombs but you dont know where they are.</p>
+                        </li>
+                        <li>
+                            <p>Click on any of the tiles to start playing. Clicking on them will uncover either a bomb, a blank tile or a tile with a number.</p>
+                        </li>
+                        <li>
+                            <p>Tiles with numbers indicate that the squares next them have bombs. For example a "2" tile means that there are 2 tiles that contain bombs next to the tiles.</p>
+                        </li>
+                        <li>
+                            <p>If you think that there is a bomb under a tile you can right click / long press a tile to put a flag ontop of it, that way you wont accidently click on it. You have a limited amount of flags.</p>
+                        </li>
+                        <li>
+                            <p>You can also click on already revealed tiles (with numbers) if you have appropiate amount of flags next to them to reveal all the tiles around them.</p>
+                        </li>
+                        <li>
+                            <p>If you want to restart the level or play a new one, then press the emoji / smiley to reset it.</p>
+                        </li>
+                    </ol>
+                </div>
+                <div id="statusContainer">
+                    <div id="statusMsg">
+                        <p></p>
+                        <p>(Click to view the result)</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <div id="footer">
+            <div id="footerContainer">
+                <div id="profilePic">
+                    <a href="https://www.sololearn.com/Profile/100073"><img id="theImg" src="https://api.sololearn.com/Uploads/Avatars/100073.jpg"/></a>
+                </div>
+                <div id="sig">
+                    <p><a href="https://www.sololearn.com/Profile/100073">Jay</a> &copy; (2022). Follow me:&nbsp;</p>
+                </div>
+                <div id="logos">
+                    <a href="https://www.sololearn.com/Profile/100073"><img id="slImg" src="https://blob.sololearn.com/avatars/sololearn.png"/></a>
+                    <a href="https://codepen.io/JDawson"><img id="cpenImg" src="https://res.cloudinary.com/css-tricks/images/w_600,h_600,c_fill/f_auto,q_auto/v1637703540/Button-White-Large/Button-White-Large-png?_i=AA"/></a>
+                </div>
+            </div>
+        </div>
+        <script src="js/minesweeper.js"></script>
+    </body>
+</html>

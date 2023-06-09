@@ -1,0 +1,261 @@
+/*@import url('your url here');*/
+
+body{
+
+    font-family: 'Arial';
+    padding: 0;
+    margin: 0;
+    background-color: white;
+
+}
+
+#mySection{
+
+    width: 100%;
+    height: calc(100vh - 50px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#container{
+
+    border: 3px solid grey;
+    width: 300px;
+    transform: scale(1);
+
+}
+
+#topPanel{
+
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+#topPanel > div{
+
+    width: 33.33%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#buttonDiv > button{
+
+    font-size: 16px;
+
+}
+
+#gameContainer{
+
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    display: grid;
+    font-size: 1.25em;
+    box-sizing: border-box;
+    /*grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;*/
+
+}
+
+.grid-item{
+
+    background-color: rgb(185, 185, 185);
+    border: 1px solid rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    
+
+}
+
+.grid-contents{
+
+    position: absolute;
+    background-color: rgb(83, 83, 83);
+    border: 3px outset rgb(83,83,83);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*width: 30px;
+    height: 30px;*/
+    box-sizing: border-box;
+    user-select: none;
+
+}
+
+.grid-contents:hover{
+
+    background-color: rgb(70,70,70);
+    border: 3px outset rgb(70,70,70);
+
+}
+
+.grid-cover{
+
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    user-select: none;
+
+}
+
+#timerDiv{
+
+    font-weight: bold;
+
+}
+
+#helpButton{
+
+    border-radius: 50%;
+
+}
+
+#helpContainer{
+
+    position: absolute;
+    top: 0;
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+    overflow-y:auto;
+    background-color: white;
+    display: none;
+    font-size: 12px;
+    margin-right: 10px;
+    box-sizing: border-box;
+
+}
+
+#unhelpButton{
+
+    position: absolute;
+    right: 5px;
+    top: 5px;
+
+}
+
+#statusContainer{
+
+    position: absolute;
+    width: 100%;
+    height: calc(100% - 30px);
+    top: 30px;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    background-color: grey;
+
+}
+
+#statusMsg{
+
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+#statusMsg > p:nth-child(1){
+
+    font-size: 24px;
+
+}
+
+#statusMsg > p:nth-child(2){
+
+    font-size: 12px;
+
+}
+
+/* footer / sig */
+
+#footer{
+
+    position: fixed;
+    width: 100%;
+    bottom:0;
+    height: 50px;
+    background-color: rgb(10,3,109);
+    box-sizing: border-box;
+    border-top: 3px solid rgb(104, 95, 224);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: gold;
+    font-weight: bold;
+
+}
+
+#footerContainer{
+
+    width: auto;
+    height: 100%;
+    display: flex;
+
+}
+
+#profilePic{
+
+    top: 10px;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+
+}
+
+#theImg{
+
+    top: calc(50% - 15px);
+    position: absolute;
+    border-radius: 50%;
+    max-width: 30px;
+
+}
+
+#sig{
+
+    font-size: 13px;
+    letter-spacing: 0.75px;
+    top: calc(50% - 15px);
+    margin-top: 3px;
+
+}
+
+#sig > p > a{
+
+    color: gold;
+    text-decoration: none;
+
+}
+
+#slImg{
+
+    top: calc(50% - 15px);
+    position: relative;
+    border-radius: 50%;
+    max-width: 30px;
+
+}
+
+#cpenImg{
+
+    top: calc(50% - 15px);
+    position: absolute;
+    border-radius: 50%;
+    max-width: 30px;
+
+}
