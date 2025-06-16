@@ -42,5 +42,16 @@
 = Additional Functionality:
 == Allow user to use arrowkeys as an alternative
 == Transitions on the events
+=== For example: when a tile is clicked...
+==== If its a bomb it shows a bomb then turns into a explosion
+==== If its nothing then the tile(s) slowly disappear
 
 = Fix any bugs 🐛
+
+= Other
+== "?" / Instructions when clicked should pause the timer
+== Change "bombs" to "mines" in Instructions
+== Fix the top bar a little bit
+== On mouse over on icons on the top bar should give labels / aria thingy
+== No of mines per grid size has a range
+== Consider adding another grid size
